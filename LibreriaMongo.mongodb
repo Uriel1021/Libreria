@@ -1,0 +1,366 @@
+use libreria
+db.createCollection("HistoriaUniversal")
+db.HistoriaUniversal.insertMany([
+    {
+        'titulo':'Cien años de soledad', 
+        'autor':'Gabriel García Márquez', 
+        'puntuacion':'468 puntos', 
+        'precio':150
+    },
+    {
+        'titulo':'El señor de los anillos (Trilogía)', 
+        'autor':'J. R. R. Tolkien', 
+        'puntuacion':'389 puntos', 
+        'precio':10
+    },
+    {
+        'titulo':'1984', 
+        'autor':'George Orwell', 
+        'puntuacion':'382 puntos', 
+        'precio':120
+    },
+    {
+        'titulo':'Un mundo feliz', 
+        'autor':'Aldous Huxley', 
+        'puntuacion':'374 puntos', 
+        'precio':1040
+    },
+    {
+        'titulo':'Orgullo y prejuicio', 
+        'autor':'Jane Austen', 
+        'puntuacion':'341 puntos', 
+        'precio':123
+    },
+    {
+        'titulo':'Crimen y castigo', 
+        'autor':'Fiódor Dostoyevski', 
+        'puntuacion':'324 puntos', 
+        'precio':112
+    },
+    {
+        'titulo':'Lolita', 
+        'autor':'Vladimir Nabokov', 
+        'puntuacion':'318 puntos', 
+        'precio':50
+    },
+    {
+        'titulo':'Ulises', 
+        'autor':'James Joyce', 
+        'puntuacion':'311 puntos', 
+        'precio':100
+        },
+    {
+        'titulo':'Madame Bovary', 
+        'autor':'b Gustave Flaubert', 
+        'puntuacion':'310 puntos', 
+        'precio':120
+    },
+    {
+        'titulo':'En busca del tiempo perdido', 
+        'autor':'Marcel Proust', 
+        'puntuacion':'304 puntos', 
+        'precio':130
+    }
+])
+
+db.createCollection("Historia")
+db.Historia.insertMany([
+    {
+        'titulo':'Todo se desmorona',
+        'autor':'Chinua Achebe',
+        'puntuacion':'117  puntos',
+        'precio':110
+    },
+    {
+        'titulo':'Emma',
+        'autor':'Jane Austen',
+        'puntuacion':'117  puntos',
+        'precio':170 
+    },
+    {
+        'titulo':'Pasaje a la India',
+        'autor':'E. M. Forster',
+        'puntuacion':'117  puntos',
+        'precio':200 
+    },
+    {
+        'titulo':'Ficciones',
+        'autor':'Jorge Luis Borges',
+        'puntuacion':'113  puntos',
+        'precio':1000   
+    },
+    {
+        'titulo':'Harry Potter y la cámara secreta (Harry Potter 2)',
+        'autor':'J. K. Rowling',
+        'puntuacion':'113  puntos',
+        'precio':110
+    },
+    {
+        'titulo':'A sangre fría',
+        'autor':'Truman Capote',
+        'puntuacion':'111  puntos',
+        'precio':140
+    },
+    {
+        'titulo':'Rimas y leyendas',
+        'autor':'Gustavo Adolfo Bécquer',
+        'puntuacion':'109  puntos',
+        'precio':123
+    },
+    {
+        'titulo':'El corazón es un cazador solitario',
+        'autor':'Carson Mccullers',
+        'puntuacion':'104  puntos',
+        'precio':143
+    },
+    {
+        'titulo':'El Rey Lear',
+        'autor':'William Shakespeare',
+        'puntuacion':'104  puntos',
+        'precio':154
+    },
+    {
+        'titulo':'Tormenta de espadas',
+        'autor':'George R.R. Martin',
+        'puntuacion':'100  puntos',
+        'precio':176
+    }
+])
+
+db.createCollection("LiteraturaUniversal")
+db.LiteraturaUniversal.insertMany([
+    {
+        'titulo':'Guerra y paz',
+        'autor':' León Tolstói',
+        'puntuacion':'197 puntos',
+        'precio':154   
+    },
+    {
+        'titulo':'Memorias de una geisha',
+        'autor':'Arthur Golden',
+        'puntuacion':'195 puntos',
+        'precio':455 
+    },
+    {
+        'titulo':'Frankenstein',
+        'autor':'Mary W. Shelley',
+        'puntuacion':'191 puntos',
+        'precio':65
+    },
+    {
+        'titulo':'Los viajes de Gulliver',
+        'autor':'Jonathan Swift',
+        'puntuacion':'186  puntos',
+        'precio':75
+    },
+    {
+        'titulo':'La ladrona de libros',
+        'autor':'Markus Zusak',
+        'puntuacion':'183 puntos',
+        'precio':120
+    },
+    {
+        'titulo':'Matar a un ruiseñor',
+        'autor':'Harper Lee',
+        'puntuacion':'183 puntos',
+        'precio':130
+    },
+    {
+        'titulo':'El conde de Montecristo',
+        'autor':'Alejandro Dumas',
+        'puntuacion':'183 puntos',
+        'precio':140
+    },
+    {
+        'titulo':'Los juegos del hambre',
+        'autor':'Suzanne Collins',
+        'puntuacion':'181 puntos',
+        'precio':150
+    },
+    {
+        'titulo':'Harry Potter y la piedra filosofal (Harry Potter 1)',
+        'autor':'J. K. Rowling',
+        'puntuacion':'179 puntos',
+        'precio':160
+    },
+    {
+        'titulo':'El señor de las moscas',
+        'autor':'William Golding',
+        'puntuacion':'177 puntos',
+        'precio':170
+    },
+    {
+        'titulo':'Moby Dick',
+        'autor':'Herman Melville',
+        'puntuacion':'174 puntos',
+        'precio':180
+    },
+    {
+        'titulo':'Los miserables',
+        'autor':'Victor Hugo',
+        'puntuacion':'172 puntos',
+        'precio':190
+    },
+    {
+        'titulo':'Las aventuras de Huckleberry Finn',
+        'autor':'Mark Twain',
+        'puntuacion':'170 puntos',
+        'precio':10
+    },
+    {
+        'titulo':'Tristam Shandy',
+        'autor':'Laurence Sterne',
+        'puntuacion':'168 puntos',
+        'precio':600
+    },
+    {
+        'titulo':'Drácula',
+        'autor':'Bram Stoker',
+        'puntuacion':'166 puntos',
+        'precio':700
+    },
+    {
+        'titulo':'El nombre de la rosa',
+        'autor':'Umberto Eco',
+        'puntuacion':'166 puntos',
+        'precio':1000
+    },
+    {
+        'titulo':'El extranjero',
+        'autor':'Albert Camus',
+        'puntuacion':'165 puntos',
+        'precio':1100
+    },
+    {
+        'titulo':'Los hermanos Karamázov',
+        'autor':' Fiódor Dostoyevski',
+        'puntuacion':'164 puntos',
+        'precio':550
+    },
+    {
+        'titulo':'El amor en los tiempos del cólera',
+        'autor':'Gabriel García Márquez',
+        'puntuacion':'163 puntos',
+        'precio':166
+    },
+    {
+        'titulo':'Harry Potter y las reliquias de la muerte (Harry Potter 7)',
+        'autor':'J. K. Rowling',
+        'puntuacion':'163 puntos',
+        'precio':177
+    },
+    {
+        'titulo':'El código Da Vinci',
+        'autor':'Dan Brown',
+        'puntuacion':'162 puntos',
+        'precio':800
+    },
+    {
+        'titulo':'Harry Potter y el prisionero de Azkaban (Harry Potter 3)',
+        'autor':'J. K. Rowling',
+        'puntuacion':'162 puntos',
+        'precio':600
+    },
+    {
+        'titulo':'Cometas en el cielo',
+        'autor':'Khaled Hosseini',
+        'puntuacion':'161 puntos',
+        'precio':400
+    },
+    {
+        'titulo':'Ensayo sobre la ceguera',
+        'autor':'José Saramago',
+        'puntuacion':'159 puntos',
+        'precio':600
+    },
+    {
+        'titulo':'Las crónicas de Narnia',
+        'autor':'C. S. Lewis',
+        'puntuacion':'152  puntos',
+        'precio':300
+    },
+    {
+        'titulo':'Los renglones torcidos de Dios',
+        'autor':'Torcuato Luca de Tena',
+        'puntuacion':'152 puntos',
+        'precio':200
+    },
+    {
+        'titulo':'En llamas',
+        'autor':'Suzanne Collins',
+        'puntuacion':'151 puntos',
+        'precio':400
+    },
+    {
+        'titulo':'Harry Potter y el cáliz de fuego (Harry Potter 4)',
+        'autor':'J. K. Rowling',
+        'puntuacion':'151 puntos',
+        'precio':700
+    },
+    {
+        'titulo':'La sombra del viento',
+        'autor':'Carlos Ruiz Zafón',
+        'puntuacion':'151 puntos',
+        'precio':800
+    },
+    {
+        'titulo':'Viaje al fin de la noche',
+        'autor':'Louis Ferdinand Céline',
+        'puntuacion':'151 puntos',
+        'precio':180
+    },
+    {
+        'titulo':'Harry Potter y el misterio del príncipe ( Harry Potter 6 )',
+        'autor':'J. K. Rowling',
+        'puntuacion':'150 puntos',
+        'precio':170
+    },
+    {
+        'titulo':'Juego de tronos',
+        'autor':'George R.R.Martin',
+        'puntuacion':'90 puntos',
+        'precio':190
+    },
+    {
+        'titulo':'La catedral del mar',
+        'autor':'Ildefonso Falcones',
+        'puntuacion':'99 puntos',
+        'precio':90
+    },
+    {
+        'titulo':'Progreso del peregrino',
+        'autor':'John Bunyan',
+        'puntuacion':'99 puntos',
+        'precio':100
+    },
+    {
+        'titulo':'El corazón de las tinieblas',
+        'autor':'Joseph Conrad',
+        'puntuacion':'98 puntos',
+        'precio':200
+    },
+    {
+        'titulo':'Robinson Crusoe',
+        'autor':'Daniel Defoe',
+        'puntuacion':'98 puntos',
+        'precio':250
+    },
+    {
+        'titulo':'La isla de los amores infinitos',
+        'autor':'Daína Chaviano',
+        'puntuacion':'97 puntos',
+        'precio':340
+    },
+    {
+        'titulo':'David Copperfield',
+        'autor':'Charles Dickens',
+        'puntuacion':'97 puntos',
+        'precio':230
+    }
+
+])
+
+db.Historia.find()
+db.HistoriaUniversal.find({},{titulo:'Aldous Huxley'})
+db.HistoriaUniversal.find({titulo:'Lolita',autor:'Vladimir Nabokov'})
+db.HistoriaUniversal.find({$or[{titulo:'Lolita'},{autor:'Madame Bovary'}]})
